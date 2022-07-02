@@ -14,9 +14,11 @@ export default function index() {
             <Header />
             <main>
                 <Routes>
-                    <Route path='/' element={<Home />} />
-                    <Route path='/about' element={<About />} />
-                    <Route path='/contact' element={<Contact />} />
+                    <Route path='/'>
+                        <Route index element={<Home />} />
+                        <Route path='about' element={<About />} />
+                        <Route path='contact' element={<Contact />} />
+                    </Route>
                 </Routes>
             </main>
             <Footer />

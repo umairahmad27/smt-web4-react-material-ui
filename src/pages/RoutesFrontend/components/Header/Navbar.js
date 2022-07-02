@@ -14,7 +14,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Home', 'About', 'Contact'];
+// const pages = ['Home', 'About', 'Contact'];
 const pages1 = [
   { title: "Home", url: "/" },
   { title: "About", url: "/about" },
